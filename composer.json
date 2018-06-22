@@ -1,0 +1,31 @@
+{
+    "name": "nemo64/slimdump",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Pfeiffer",
+            "email": "git@marco.zone"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "helhum/typo3-console": "^5.4",
+        "jakeasmith/http_build_url": "^1.0",
+        "typo3/cms-core": "~8.7.7",
+        "webfactory/slimdump": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nemo64\\Slimdump\\": "Classes"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "typo3/cms": {
+            "web-dir": "web"
+        }
+    }
+}

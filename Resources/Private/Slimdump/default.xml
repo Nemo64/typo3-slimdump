@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<slimdump>
+    <table name="*" dump="full"/>
+
+    <!-- there is no real reason to ever dump sessions or cache -->
+    <table name="be_session*" dump="schema"/>
+    <table name="fe_session*" dump="schema"/>
+    <table name="cache_*" dump="schema"/>
+    <table name="cf_*" dump="schema"/>
+</slimdump>

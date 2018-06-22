@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<slimdump>
+    <table name="backend_layout*" dump="full"/>
+
+    <table name="be_*" dump="full"/>
+    <table name="fe_*" dump="full"/>
+    <table name="be_session*" dump="schema"/>
+    <table name="fe_session*" dump="schema"/>
+
+    <table name="cache_*" dump="schema"/>
+    <table name="cf_*" dump="schema"/>
+
+    <table name="sys_*" dump="full"/>
+    <table name="sys_log" dump="schema"/>
+    <table name="sys_history" dump="schema"/>
+
+    <table name="pages*" dump="full"/>
+
+    <table name="tt_*" dump="full"/>
+    <table name="tx_*" dump="full"/>
+</slimdump>
