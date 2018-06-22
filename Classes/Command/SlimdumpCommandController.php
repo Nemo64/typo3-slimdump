@@ -11,8 +11,15 @@ use Webfactory\Slimdump\SlimdumpApplication;
 class SlimdumpCommandController extends CommandController
 {
     /**
-     * @param string $connection
-     * @param array $config
+     * Create a slimdump export.
+     *
+     * Prepares a slimdump command with connection credentials from typo3 configuration.
+     * This command will also search for configurations inside of extensions.
+     * Those configurations must be in Resources/Private/Slimdump/{name}.xml
+     * You can specify which preset to use by using --config minimal (it uses "default" by default).
+     *
+     * @param string $connection Which typo3 connection to use
+     * @param array $config A list of config files and/or presets to use.
      *
      * @throws \Exception
      */
