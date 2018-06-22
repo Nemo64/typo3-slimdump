@@ -11,8 +11,9 @@
     <table name="cf_*" dump="schema"/>
 
     <table name="sys_*" dump="full"/>
-    <table name="sys_log" dump="schema"/>
+    <table name="sys_file_processedfile" dump="schema"/>
     <table name="sys_history" dump="schema"/>
+    <table name="sys_log" dump="schema"/>
 
     <table name="pages*" dump="full"/>
 
