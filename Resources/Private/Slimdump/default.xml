@@ -7,4 +7,5 @@
     <table name="fe_session*" dump="schema"/>
     <table name="cache_*" dump="schema"/>
     <table name="cf_*" dump="schema"/>
+    <table name="sys_lockedrecords" dump="schema"/>
 </slimdump>
