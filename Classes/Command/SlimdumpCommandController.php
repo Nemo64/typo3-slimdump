@@ -58,6 +58,7 @@ class SlimdumpCommandController extends CommandController
             'user' => $connection['user'],
             'pass' => $connection['password'],
             'host' => $connection['host'],
+            'port' => $connection['port'],
             'path' => '/' . $connection['dbname'],
         ]);
 
